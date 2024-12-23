@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- État pressé -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#E0E0E0" /> <!-- Couleur de fond lorsqu'on appuie -->
+            <stroke
+                android:width="1dp"
+                android:color="#999999" /> <!-- Bordure plus sombre -->
+            <corners android:radius="8dp" /> <!-- Coins arrondis -->
+            <padding
+                android:left="8dp"
+                android:right="8dp"
+                android:top="8dp"
+                android:bottom="8dp" />
+        </shape>
+    </item>
+
+    <!-- État désactivé -->
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="#F5F5F5" /> <!-- Fond gris clair -->
+            <stroke
+                android:width="1dp"
+                android:color="#CCCCCC" /> <!-- Bordure grise -->
+            <corners android:radius="8dp" />
+            <padding
+                android:left="8dp"
+                android:right="8dp"
+                android:top="8dp"
+                android:bottom="8dp" />
+        </shape>
+    </item>
+
+    <!-- État normal -->
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- Couleur de fond blanche -->
+            <stroke
+                android:width="1dp"
+                android:color="#CCCCCC" /> <!-- Bordure grise -->
+            <corners android:radius="8dp" />
+            <padding
+                android:left="8dp"
+                android:right="8dp"
+                android:top="8dp"
+                android:bottom="8dp" />
+        </shape>
+    </item>
+
+</selector>
