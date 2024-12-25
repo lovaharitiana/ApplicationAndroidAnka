@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".EditClient"
+            android:exported="false" />
+        <activity
             android:name=".AjoutClient"
             android:exported="false" />
         <activity

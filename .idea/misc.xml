@@ -5,7 +5,11 @@
       <map>
         <entry key="..\:/MyApplication/app/src/main/res/drawable/edit_text_style.xml" value="0.199" />
         <entry key="..\:/MyApplication/app/src/main/res/layout/activity_ajout_client.xml" value="0.15" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/activity_edit_client.xml" value="0.17889492753623187" />
         <entry key="..\:/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/edit_client.xml" value="0.17889492753623187" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/item_client.xml" value="0.1" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/list_item.xml" value="0.25" />
       </map>
     </option>
   </component>
