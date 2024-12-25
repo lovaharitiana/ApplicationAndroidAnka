@@ -6,12 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".EditClient">
 
-    <TableLayout
-        android:id="@+id/tableLayout"
+    <!-- ScrollView pour permettre le défilement si le contenu dépasse la taille de l'écran -->
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="16dp"
-        android:stretchColumns="*">
-    </TableLayout>
+        android:fillViewport="true">
+
+        <!-- TableLayout pour organiser les lignes dynamiquement -->
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:stretchColumns="*">
+
+            <!-- Les lignes seront ajoutées dynamiquement via Java, chaque ligne étant un TableRow -->
+
+        </TableLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
