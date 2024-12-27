@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EditClient">
+    android:orientation="vertical">
 
-    <!-- ScrollView pour permettre le défilement si le contenu dépasse la taille de l'écran -->
-    <ScrollView
+    <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" />
 
-        <!-- TableLayout pour organiser les lignes dynamiquement -->
-        <TableLayout
-            android:id="@+id/tableLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:stretchColumns="*">
-
-            <!-- Les lignes seront ajoutées dynamiquement via Java, chaque ligne étant un TableRow -->
-
-        </TableLayout>
-    </ScrollView>
-
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
