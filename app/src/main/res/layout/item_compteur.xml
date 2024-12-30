@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Affichage du numéro de série -->
+    <TextView
+        android:id="@+id/text_numeroserie"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Numéro Série" />
+
+    <!-- Affichage de la date de branchement -->
+
+    <!-- Bouton Modifier -->
+
+    <TextView
+        android:id="@+id/text_datebranchement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date de Branchement" />
+
+    <Button
+        android:id="@+id/btn_modifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modifier" />
+</LinearLayout>

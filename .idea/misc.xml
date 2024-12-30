@@ -8,12 +8,15 @@
         <entry key="..\:/MyApplication/app/src/main/res/layout/activity_ajout_client.xml" value="0.15" />
         <entry key="..\:/MyApplication/app/src/main/res/layout/activity_ajout_compteur.xml" value="0.1296875" />
         <entry key="..\:/MyApplication/app/src/main/res/layout/activity_dialog_client.xml" value="0.17300724637681159" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/activity_dialog_compteur.xml" value="0.1490036231884058" />
         <entry key="..\:/MyApplication/app/src/main/res/layout/activity_edit_client.xml" value="0.17889492753623187" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/activity_edit_compteur.xml" value="0.12291666666666666" />
         <entry key="..\:/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/MyApplication/app/src/main/res/layout/dialog_edit_client.xml" value="0.115625" />
         <entry key="..\:/MyApplication/app/src/main/res/layout/edit_client.xml" value="0.17889492753623187" />
         <entry key="..\:/MyApplication/app/src/main/res/layout/edit_text_style.xml" value="0.13949275362318841" />
         <entry key="..\:/MyApplication/app/src/main/res/layout/item_client.xml" value="0.33" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/item_compteur.xml" value="0.1828125" />
         <entry key="..\:/MyApplication/app/src/main/res/layout/list_item.xml" value="0.25" />
         <entry key="..\:/MyApplication/app/src/main/res/layout/network_security_config.xml" value="0.1" />
       </map>
