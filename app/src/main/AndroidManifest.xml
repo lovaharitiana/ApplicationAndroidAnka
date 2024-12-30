@@ -11,7 +11,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-
         <activity
             android:name=".MainActivity"
             android:exported="false" />
@@ -19,7 +18,7 @@
             android:name=".dialog_client"
             android:exported="false" />
         <activity
-            android:name=".activity_ajout_compteur"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +28,7 @@
         </activity>
         <activity android:name=".EditClientActivity" />
         <activity android:name=".EditCompteurActivity" />
+        <activity android:name=".activity_ajout_compteur" />
     </application>
 
 </manifest>
