@@ -1,0 +1,88 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:stretchColumns="1">
+
+    <!-- Ligne 1 -->
+    <TableRow>
+        <TextView
+            android:id="@+id/text_nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            android:layout_marginEnd="16dp"
+             />
+
+        <TextView
+            android:id="@+id/text_categorie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Catégorie" />
+    </TableRow>
+
+    <!-- Ligne 2 -->
+    <TableRow>
+        <TextView
+            android:id="@+id/text_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Code Client" />
+
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Date de Raccordement" />
+    </TableRow>
+
+    <!-- Ligne 3 -->
+    <TableRow>
+        <TextView
+            android:id="@+id/text_numero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Numéro Série" />
+
+        <TextView
+            android:id="@+id/text_village"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Village" />
+    </TableRow>
+
+    <!-- Ligne 4 -->
+    <TableRow>
+        <TextView
+            android:id="@+id/text_mode_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Mode de Paiement" />
+
+        <TextView
+            android:id="@+id/text_activite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Activité" />
+    </TableRow>
+
+    <!-- Ligne 5 -->
+    <TableRow>
+        <Button
+            android:id="@+id/btn_modifier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modifier"
+            android:layout_gravity="end"
+            android:layout_span="2"/>  <!-- Pour que le bouton prenne toute la largeur de la ligne -->
+    </TableRow>
+
+</TableLayout>

@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -113,6 +114,14 @@ public class MainActivity extends AppCompatActivity {
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
             Toast.makeText(MainActivity.this, result, Toast.LENGTH_SHORT).show();  // Show result or error message
+
+            // Rediriger vers l'activité EditClientActivity si l'ajout a réussi
+            if (result.equals("Client ajouté avec succès")) {
+                Intent intent = new Intent(MainActivity.this, EditClientActivity.class);
+                startActivity(intent);
+                finish(); // Optionnel : Terminer l'activité actuelle pour qu'elle ne soit plus dans la pile
+            }
         }
+
     }
 }

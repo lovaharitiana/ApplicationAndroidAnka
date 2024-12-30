@@ -47,4 +47,9 @@ public class SQLiteHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_CLIENTS);
         onCreate(db); // Re-crée la table lors de la mise à jour
     }
+
+
+
+
+
 }

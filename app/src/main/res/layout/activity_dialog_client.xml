@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- EditText Nom -->
+    <EditText
+        android:id="@+id/edit_nom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Nom"
+        android:text="Nom du client"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- Spinner Catégorie -->
+    <Spinner
+        android:id="@+id/spinner_categorie"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Catégorie"
+        android:background="@drawable/edit_text_style"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_nom"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- EditText Code Client -->
+    <EditText
+        android:id="@+id/edit_code"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Code Client"
+        android:text="Code client"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinner_categorie"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- EditText Date de Raccordement -->
+    <EditText
+        android:id="@+id/edit_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Date de Raccordement"
+        android:inputType="date"
+        android:text="01/01/2024"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_code"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- EditText Numéro Série -->
+    <EditText
+        android:id="@+id/edit_numero"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Numéro Série"
+        android:text="Numéro série"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_date"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- Spinner Village -->
+    <Spinner
+        android:id="@+id/spinner_village"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_style"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_numero"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- Spinner Mode de Paiement -->
+    <Spinner
+        android:id="@+id/spinner_payment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_style"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinner_village"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- EditText Activité -->
+    <EditText
+        android:id="@+id/edit_activite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Activité"
+        android:text="Activité"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinner_payment"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+</android.support.constraint.ConstraintLayout>
